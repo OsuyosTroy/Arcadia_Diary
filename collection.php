@@ -7,6 +7,8 @@ while ($row = $result->fetch_assoc()) {
     $allVaults[] = $row;
 }
 
+// xdkgnxdkgxdkgvnxlvx
+
 $gameMap = [];
 foreach ($allVaults as $row) {
     $gameMap[normalize_game_key($row['Game_Title'])] = $row;
